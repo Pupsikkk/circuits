@@ -1,0 +1,41 @@
+.scrollableList {
+  max-height: 70%;
+  overflow: auto;
+  /* body::-webkit-scrollbar {
+    display: none;
+  }
+  -ms-overflow-style: none; */
+  scrollbar-width: none;
+}
+
+.listItem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #b3b3b3;
+  position: relative;
+}
+
+.leftItem {
+  position: relative;
+  float: left;
+  font-size: larger;
+  user-select: none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -o-user-select: none;
+}
+
+.rightItem {
+  display: block;
+  position: relative;
+  float: right;
+  width: 50%;
+  user-select: none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -o-user-select: none;
+  cursor: "grab";
+}

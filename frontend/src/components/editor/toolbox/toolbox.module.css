@@ -1,0 +1,10 @@
+.toolbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  float: left;
+  width: 15%;
+  border: solid #444853;
+  border-radius: 10px 0 0 10px;
+  background: #444853;
+}

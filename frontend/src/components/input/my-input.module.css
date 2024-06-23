@@ -1,0 +1,15 @@
+.MyInput {
+    height: 40px;
+    width: 100%;
+    padding: 5px 15px 5px 20px;
+    margin: 5px 5px 0px 5px;
+    border: 3px solid rgb(71, 61, 61);
+    border-radius: 20px;
+}
+
+.errorStyle {
+    color: red;
+    font-size: 13px;
+    font-weight: bold;
+    margin-left: 30px;
+}

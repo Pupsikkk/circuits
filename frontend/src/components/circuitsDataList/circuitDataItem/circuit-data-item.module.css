@@ -1,0 +1,53 @@
+.wrapper {
+    width: 100%;
+    display: flex;
+    padding: 20px;
+    background-color: #25a07f;
+    border-radius: 15px;
+    color: white;
+    margin: 0px 0px 20px 0px;
+}
+
+.logoWrapper {
+    display: flex;
+    align-items: center;
+    margin: 0px 40px 0px 0px;
+}
+
+.logo {
+    width: 250px;
+    border-radius: 10px;
+}
+
+.description {
+    overflow-wrap: break-word;
+    margin: 20px 0px 0px 0px;
+    padding: 10px;
+}
+
+.textBlock {
+    width: 100%;
+}
+
+.buttonWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.openButton {
+    border-radius: 20px;
+    border: 1px solid white;
+    color: #25a07f;
+    padding: 10px 20px;
+    margin: 0px 0px 10px 0px;
+}
+
+.deleteButton {
+    border-radius: 20px;
+    border: 1px solid #ff4e4e;
+    color: white;
+    background-color: #ff4e4e;
+    padding: 10px 20px;
+    margin: 0px 0px 10px 0px;
+}

@@ -1,0 +1,18 @@
+.helpTableData {
+    text-align: center;
+}
+
+.help {
+  background: #25a07f;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  float: right;
+  width: 100%;
+  height: 100vh;
+  border: solid #444853;
+  border-radius: 0 10px 10px 0;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}

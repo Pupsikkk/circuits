@@ -1,0 +1,61 @@
+/* Container styles */
+.containerWrapper {
+  margin: 50px 0 0 0;
+  padding: 20px 300px 0 300px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: #25a07f;
+  height: 100vh; /* Занимать всю высоту экрана */
+  box-sizing: border-box; /* Учитываем padding в высоте */
+}
+
+/* ProfileInfo styles */
+.profileInfo {
+  display: flex;
+  flex-direction: column;
+  margin: 0 30px 0 0;
+}
+
+/* Avatar styles */
+.avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+/* ChangeAvatarButton styles */
+.changeAvatarButton {
+  background-color: white;
+  color: black;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+/* ProfileForm styles */
+.profileForm {
+  width: 60%;
+}
+
+/* Input styles */
+.input {
+  width: 100%;
+  padding: 8px 15px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+}
+
+/* Textarea styles */
+.textarea {
+  width: 100%;
+  padding: 8px 15px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  resize: vertical; /* Разрешить изменение размера только по вертикали */
+}

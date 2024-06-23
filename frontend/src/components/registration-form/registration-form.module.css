@@ -1,0 +1,46 @@
+.formWrapper {
+    padding: 20px;
+    background-color: white;
+    border-radius: 40px;
+}
+
+.inputs{
+    padding: 5px;
+}
+
+.buttonWrapper {
+    display: flex;
+    justify-content: center; 
+    width: 100%;
+}
+
+.goBackButton {
+    margin: 10px;
+    background-color: #25a07f;
+    border: 1px solid #25a07f;
+    color: white;
+    font-weight: 700;
+}
+
+.goBackButton:hover {
+    text-decoration: underline
+}
+
+.registrationButton {
+    margin: 20px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+    font-size: larger;
+    border: 2px solid #25a07f;
+    background-color: #25a07f;
+    color: white;
+    font-weight: 700;
+}
+
+.errorMessage {
+    /* margin-left: 50px; */
+    margin: 10px 0px 0px 0px;
+    color: crimson;
+    display: flex;
+    justify-content: center;
+}
